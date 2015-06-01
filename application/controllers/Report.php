@@ -5,11 +5,8 @@ class Report extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('report/index');
+		echo getenv('DB_USER');
+		//$this->load->view('report/index');
 	}
 
-	public function list()
-	{
-		echo "Report List";
-	}
 }
