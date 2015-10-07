@@ -8,6 +8,11 @@ class Country extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
+	public function contact()
+	{
+		echo "one more function";
+	}
+
 	
 
 	public function new_page()
