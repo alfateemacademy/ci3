@@ -12,4 +12,9 @@ class Country extends CI_Controller {
 	{
 		echo "About Page";
 	}
+
+	public function new_page()
+	{
+		echo "new page";
+	}
 }
