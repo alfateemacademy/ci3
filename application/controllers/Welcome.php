@@ -12,4 +12,9 @@ class Welcome extends CI_Controller {
 	{
 		echo "About Page";
 	}
+
+	public function contact()
+	{
+		echo "Contact Page now";
+	}
 }
